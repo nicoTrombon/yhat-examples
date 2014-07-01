@@ -46,7 +46,7 @@ model.predict(testcase)
 
 
 library(yhatr)
-yhat.config <- c(username="{ USERNAME }", apikey="{ APIKEY }", env="http://cloud.yhathq.com/")
+yhat.config <- c(username="nicooteiza@gmail.com", apikey="1463a094d207e04aa047d6e35dea2fb0", env="http://cloud.yhathq.com/")
 yhat.deploy("BeerRecR")
 
 # curl -X POST -H "Content-type: application/json" \
